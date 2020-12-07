@@ -1,0 +1,45 @@
+body
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 900px;
+    margin: 0 auto;
+}
+
+h1
+{
+    text-align: center;
+}
+
+.game
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a
+{
+    color: #065496;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+a:hover
+{
+    color: #deec00;
+}
+
+.restart
+{
+  display: none;
+}
+
+.square
+{
+  width: 500px;
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+}
