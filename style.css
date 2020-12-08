@@ -43,3 +43,8 @@ a:hover
   display: flex;
   flex-wrap: wrap;
 }
+
+.square-cell
+{
+	margin: 3px;
+}
