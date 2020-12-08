@@ -57,7 +57,6 @@ new_level = function () {
     var cur_square = document.createElement("div");
     cur_square.className = "square-cell";
     var square_size = 500 / (cur_level+1) - 6;
-    cur_square.style.margin = `3px`;
     cur_square.style.width = `${square_size}px`;
     cur_square.style.height = `${square_size}px`;
     if (i != r_s - 1) {
